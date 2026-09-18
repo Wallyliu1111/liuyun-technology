@@ -1,0 +1,203 @@
+{
+  "route_count": 33,
+  "routes": [
+    {
+      "key": "web_path",
+      "path": "web_path.html",
+      "title": "高CP網站設計",
+      "source": "https://www.buyersline.com.tw/web_path.html"
+    },
+    {
+      "key": "shop",
+      "path": "shop_path.html",
+      "title": "輕鬆開店，積極行銷",
+      "source": "https://www.buyersline.com.tw/shop_path.html"
+    },
+    {
+      "key": "brand",
+      "path": "brand-web.html",
+      "title": "B2C品牌網站",
+      "source": "https://www.buyersline.com.tw/brand-web.html"
+    },
+    {
+      "key": "b2b",
+      "path": "b2b.html",
+      "title": "B2B品牌網站",
+      "source": "https://www.buyersline.com.tw/RWD-B2B.html"
+    },
+    {
+      "key": "system",
+      "path": "system.html",
+      "title": "客製程式網站",
+      "source": "https://www.buyersline.com.tw/system.html"
+    },
+    {
+      "key": "cis",
+      "path": "cis-logo.html",
+      "title": "CIS企業識別",
+      "source": "https://www.buyersline.com.tw/CIS_path.html"
+    },
+    {
+      "key": "catalog",
+      "path": "catalog-design.html",
+      "title": "型錄DM設計",
+      "source": "https://www.buyersline.com.tw/catalog_path.html"
+    },
+    {
+      "key": "marketing",
+      "path": "marketing.html",
+      "title": "數位網路行銷",
+      "source": "https://www.buyersline.com.tw/marekting.html"
+    },
+    {
+      "key": "about",
+      "path": "about.html",
+      "title": "公司簡介",
+      "source": "https://www.buyersline.com.tw/about_tw_1.php"
+    },
+    {
+      "key": "works",
+      "path": "works.html",
+      "title": "網頁設計實績",
+      "source": "https://www.buyersline.com.tw/product_tw.php"
+    },
+    {
+      "key": "food",
+      "path": "food.html",
+      "title": "食品餐飲、餐廳飯店、伴手禮網站設計",
+      "source": "https://www.buyersline.com.tw/food-web-site.html"
+    },
+    {
+      "key": "architecture",
+      "path": "architecture.html",
+      "title": "建築、建材、室內設計、傢俱網站設計",
+      "source": "https://www.buyersline.com.tw/%E5%BB%BA%E7%AF%89%E5%AE%A4%E5%85%A7%E8%A8%AD%E8%A8%88.html"
+    },
+    {
+      "key": "technology",
+      "path": "technology.html",
+      "title": "上市櫃公司網站設計、ESG永續發展網站設計",
+      "source": "https://www.buyersline.com.tw/%E7%A7%91%E6%8A%80%E9%9B%BB%E5%AD%90.html"
+    },
+    {
+      "key": "knowledge",
+      "path": "knowledge.html",
+      "title": "網頁設計相關知識",
+      "source": "https://www.buyersline.com.tw/web-design.html"
+    },
+    {
+      "key": "marketing-knowledge",
+      "path": "marketing-knowledge.html",
+      "title": "網路行銷相關知識",
+      "source": "https://www.buyersline.com.tw/SEO-SEM.html"
+    },
+    {
+      "key": "contact",
+      "path": "contact.html",
+      "title": "聯絡我們",
+      "source": "https://www.buyersline.com.tw/contact_tw.php"
+    },
+    {
+      "key": "work-no-code-waitlist",
+      "path": "works/no-code-waitlist.html",
+      "title": "AI／新科技產品｜預發布頁",
+      "source": "https://motionsites.ai/?prompt=no-code-waitlist"
+    },
+    {
+      "key": "work-neon-logic",
+      "path": "works/neon-logic.html",
+      "title": "科技品牌｜概念 Landing Page",
+      "source": "https://motionsites.ai/?prompt=neon-logic"
+    },
+    {
+      "key": "work-nexacore-control",
+      "path": "works/nexacore-control.html",
+      "title": "B2B SaaS｜營運管理",
+      "source": "https://motionsites.ai/?prompt=nexacore-control"
+    },
+    {
+      "key": "work-intelligentx",
+      "path": "works/intelligentx.html",
+      "title": "心理健康｜資訊平台",
+      "source": "https://motionsites.ai/?prompt=intelligentx"
+    },
+    {
+      "key": "work-stillmind",
+      "path": "works/stillmind.html",
+      "title": "冥想正念｜服務頁",
+      "source": "https://motionsites.ai/?prompt=stillmind"
+    },
+    {
+      "key": "work-vision-reveal",
+      "path": "works/vision-reveal.html",
+      "title": "動態設計｜創意工作室",
+      "source": "https://motionsites.ai/?prompt=vision-reveal"
+    },
+    {
+      "key": "work-digital-experiences",
+      "path": "works/digital-experiences.html",
+      "title": "數位代理商｜品牌體驗",
+      "source": "https://motionsites.ai/?prompt=digital-experiences"
+    },
+    {
+      "key": "work-wellness-device",
+      "path": "works/wellness-device.html",
+      "title": "自然意象｜概念展示",
+      "source": "https://motionsites.ai/?prompt=wellness-device"
+    },
+    {
+      "key": "work-cross-border",
+      "path": "works/cross-border.html",
+      "title": "跨境物流｜運輸服務",
+      "source": "https://motionsites.ai/?prompt=cross-border"
+    },
+    {
+      "key": "work-subscription-agency",
+      "path": "works/subscription-agency.html",
+      "title": "訂閱制｜創意服務",
+      "source": "https://motionsites.ai/?prompt=subscription-agency"
+    },
+    {
+      "key": "work-beauty-categories",
+      "path": "works/beauty-categories.html",
+      "title": "美容保養｜電商分類",
+      "source": "https://motionsites.ai/?prompt=beauty-categories"
+    },
+    {
+      "key": "work-blog-showcase",
+      "path": "works/blog-showcase.html",
+      "title": "攝影器材｜內容媒體",
+      "source": "https://motionsites.ai/?prompt=blog-showcase"
+    },
+    {
+      "key": "work-sky-cookie",
+      "path": "works/sky-cookie.html",
+      "title": "食品品牌｜產品展示",
+      "source": "https://motionsites.ai/?prompt=sky-cookie"
+    },
+    {
+      "key": "work-coffee-rewards",
+      "path": "works/coffee-rewards.html",
+      "title": "咖啡服務｜消費紀錄",
+      "source": "https://motionsites.ai/?prompt=coffee-rewards"
+    },
+    {
+      "key": "work-shop",
+      "path": "works/shop.html",
+      "title": "香氛產品｜個人化導購",
+      "source": "https://motionsites.ai/?prompt=shop"
+    },
+    {
+      "key": "work-gear-shop",
+      "path": "works/gear-shop.html",
+      "title": "3C商品｜電商展示",
+      "source": "https://motionsites.ai/?prompt=gear-shop"
+    },
+    {
+      "key": "work-product-studio",
+      "path": "works/product-studio.html",
+      "title": "數位服務｜產品與介面設計",
+      "source": "https://motionsites.ai/?prompt=product-studio"
+    }
+  ]
+}

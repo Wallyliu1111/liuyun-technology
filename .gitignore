@@ -1,0 +1,16 @@
+.DS_Store
+__pycache__/
+*.pyc
+*.zip
+qa-pages/
+candidate-sheet.png
+candidate-sheet/
+candidate-coffee/
+*-debug.png
+case-contact-sheet.png
+qa_frames/
+verification-*.png
+inspect_*.py
+make_candidate_sheet.py
+verification.json
+multipage_verification.json

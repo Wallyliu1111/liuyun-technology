@@ -1,0 +1,19 @@
+window.LIUYUN_CASES = [
+  {id:'no-code-waitlist',title:'No-Code Waitlist',displayTitle:'AI／新科技產品｜預發布頁',category:'Landing Page',filter:'AI／科技產品',src:'assets/media/no-code-waitlist.mp4',kind:'video',sourcePage:'https://motionsites.ai/?prompt=no-code-waitlist'},
+  {id:'neon-logic',title:'Neon Logic',displayTitle:'科技品牌｜概念 Landing Page',category:'Landing Page',filter:'AI／科技產品',src:'assets/media/neon-logic.webp',kind:'image',sourcePage:'https://motionsites.ai/?prompt=neon-logic'},
+  {id:'nexacore-control',title:'NexaCore Control',displayTitle:'B2B SaaS｜營運管理',category:'Features',filter:'B2B SaaS',src:'assets/media/nexacore-control.webp',kind:'image',sourcePage:'https://motionsites.ai/?prompt=nexacore-control'},
+  {id:'intelligentx',title:'IntelligentX',displayTitle:'心理健康｜資訊平台',category:'Landing Page',filter:'心理健康',src:'assets/media/intelligentx.webp',kind:'image',sourcePage:'https://motionsites.ai/?prompt=intelligentx'},
+  {id:'stillmind',title:'Stillmind',displayTitle:'冥想正念｜服務頁',category:'Landing Page',filter:'心理健康',src:'assets/media/stillmind.mp4',kind:'video',sourcePage:'https://motionsites.ai/?prompt=stillmind'},
+  {id:'vision-reveal',title:'Vision Reveal',displayTitle:'動態設計｜創意工作室',category:'Portfolio',filter:'創意設計',src:'assets/media/vision-reveal.mp4',kind:'video',sourcePage:'https://motionsites.ai/?prompt=vision-reveal'},
+  {id:'digital-experiences',title:'Digital Experiences',displayTitle:'數位代理商｜品牌體驗',category:'Landing Page',filter:'創意設計',src:'assets/media/digital-experiences.webp',kind:'image',sourcePage:'https://motionsites.ai/?prompt=digital-experiences'},
+  {id:'wellness-device',title:'Wellness Devicex',displayTitle:'自然意象｜概念展示',category:'Concept',filter:'概念設計',src:'assets/media/wellness-device.mp4',kind:'video',sourcePage:'https://motionsites.ai/?prompt=wellness-device'},
+  {id:'cross-border',title:'Cross-Border',displayTitle:'跨境物流｜運輸服務',category:'Landing Page',filter:'跨境物流',src:'assets/media/cross-border.mp4',kind:'video',sourcePage:'https://motionsites.ai/?prompt=cross-border'},
+  {id:'subscription-agency',title:'Subscription Agency',displayTitle:'訂閱制｜創意服務',category:'Agency',filter:'創意設計',src:'assets/media/subscription-agency.mp4',kind:'video',sourcePage:'https://motionsites.ai/?prompt=subscription-agency'},
+  {id:'beauty-categories',title:'Beauty Categories',displayTitle:'美容保養｜電商分類',category:'Categories',filter:'美容電商',src:'assets/media/beauty-categories.webp',kind:'image',sourcePage:'https://motionsites.ai/?prompt=beauty-categories'},
+  {id:'blog-showcase',title:'Blog Showcase',displayTitle:'攝影器材｜內容媒體',category:'Blog',filter:'攝影內容',src:'assets/media/blog-showcase.webp',kind:'image',sourcePage:'https://motionsites.ai/?prompt=blog-showcase'},
+  {id:'sky-cookie',title:'Sky Cookie',displayTitle:'食品品牌｜產品展示',category:'Food',filter:'食品餐旅',src:'assets/media/sky-cookie.mp4',kind:'video',sourcePage:'https://motionsites.ai/?prompt=sky-cookie'},
+  {id:'coffee-rewards',title:'Coffee Rewards',displayTitle:'咖啡服務｜消費紀錄',category:'Loyalty App',filter:'食品餐旅',src:'assets/media/coffee-rewards.mp4',kind:'video',sourcePage:'https://motionsites.ai/?prompt=coffee-rewards'},
+  {id:'shop',title:'Daisy Shop',displayTitle:'香氛產品｜個人化導購',category:'Ecommerce',filter:'美容電商',src:'assets/media/shop.mp4',kind:'video',sourcePage:'https://motionsites.ai/?prompt=shop'},
+  {id:'gear-shop',title:'Gear Shop',displayTitle:'3C商品｜電商展示',category:'Ecommerce App',filter:'網路商城',src:'assets/media/gear-shop.png',kind:'image',sourcePage:'https://motionsites.ai/?prompt=gear-shop'},
+  {id:'product-studio',title:'Product Studio',displayTitle:'數位服務｜產品與介面設計',category:'Agency Website',filter:'創意設計',src:'assets/media/product-studio.mp4',kind:'video',sourcePage:'https://motionsites.ai/?prompt=product-studio'}
+];
