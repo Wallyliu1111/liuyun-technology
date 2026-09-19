@@ -23,9 +23,10 @@ GitHub Pages：<https://wallyliu1111.github.io/liuyun-technology/>
 - `knowledge.html`：網頁設計學堂
 - `marketing-knowledge.html`：網路行銷學堂
 - `contact.html`：索取報價
+- `consultation.html`：需求諮詢與網站預算估算
 - `works/<case-id>.html`：17 個案例 detail page
 
-完整清單在 `routes.json`，共 33 個 page-data routes；加上首頁與 17 個 detail routes，瀏覽器驗收共跑 34 個 URL。
+完整清單在 `routes.json`，共 34 個公開頁面；加上首頁與 17 個 detail routes，瀏覽器驗收共跑 35 個 URL。
 
 ## 案例分類
 
@@ -65,6 +66,8 @@ open http://127.0.0.1:8765/
 - `generate_subpages.py`：產生 33 個資料頁與 17 個案例 detail page
 - `cases.js` / `cases.json`：17 個 motion 案例 metadata
 - `nav.js`：首頁與所有內頁共用 Header、網站設計／網頁作品／知識學堂 dropdown 與手機點擊展開
+- `consultation.html` / `consultation.js` / `consultation.css`：像選 Mac 規格一樣的需求估算器
+- `pricing-reference.md`：估算拆價邏輯與公開參考來源
 - `routes.json`：route 清單
 - `assets/media/`：本地 MotionSites archive 預覽素材
 
@@ -94,12 +97,16 @@ v2 全站掃描在：
 
 本 repo 的 MotionSites 動畫為公開預覽素材展示；公開 Pages 主要用於 prototype／作品展示，正式商用前仍需逐項確認素材授權。
 
+網站舊版固定方案價格已移除；目前只在 `consultation.html` 顯示「需求諮詢 NT$3,000 起」與逐項選配估算。
+
 ## 驗證
 
-- 多頁 browser QA：34/34 routes 通過，Header signature 只有 1 組
+- 多頁 browser QA：35/35 routes 通過，Header signature 只有 1 組
 - desktop/mobile 首頁：6 張精選案例、5 個 video、0 個真正 failed request、0 個 console error
 - 作品頁：17 個案例；首頁明確保留 6 個精選
 - 食品餐旅篩選：2 張相關案例；食品頁只展示食品／咖啡相關案例
+- 需求估算器：初始 NT$3,000；單頁選擇後 NT$15,000；測試選配組合 NT$61,000；摘要可複製
+- 需求估算器 mobile：無水平溢出；desktop/mobile console errors=0
 - reduced motion：首頁 reveal 元件直接顯示
 - 內頁 modal：開啟／關閉通過
 - desktop dropdown：初始關閉、滑鼠移入開啟、移出關閉

@@ -17,11 +17,7 @@ pages = {
    {'title':'如何製作高CP值網站？','copy':'想要降低預算又可以獲得好網站，選版 or 模組設計方案是高CP的好選擇。作業快速省成本、品質優美成果好、配合行銷曝光效益佳，讓1+1>2。'},
    {'title':'好網站展現企業專業度、好感度','copy':'內容企劃為優先，八大重點，專業才能贏得訂單。網站設計不是藝術品，重點是展現企業專業形象、介紹企業優勢，是企業給買主與社會大眾的履歷表。'}
   ],
-  'plans':[
-   {'name':'物美價廉方案','tag':'選版也能好質感','price':'NT$ 3.6~6.8 萬','items':['網站視覺設計','網站內容規劃','多版型選擇製作','CMS管理功能']},
-   {'name':'高CP質感網站','tag':'設計出特色，物超所值','price':'NT$ 8.8~15 萬','items':['網站內容企劃','形象風格規劃','內容視覺設計','高級動態特效','CMS管理模組']},
-   {'name':'豪華旗艦形象','tag':'量身創造品牌價值','price':'NT$ 180,000 起','items':['網站整體企劃','品牌形象設計','內容視覺設計','高階動態特效','客製化CMS功能']}
-  ]
+
  },
  'shop': {
   'path':'shop_path.html','source':'https://www.buyersline.com.tw/shop_path.html','eyebrow':'購物網站設計 / SHOPPING WEBSITE','title':'輕鬆開店，積極行銷','accent':'創建一個高人氣網路商店','lead':'視覺瀏覽動線佳，便利消費買氣旺。網站前台：豪華電商格局，增加買氣更安心。','case_ids':['gear-shop','shop','beauty-categories'],
@@ -30,7 +26,7 @@ pages = {
    {'title':'30多項功能，比你要的更完整','copy':'操作簡單，輕鬆管理，時間省更多。產品櫥窗、購物車、訂單管理、會員管理、滿額免運、廣告管理、促銷管理與頁面管理，從前台到後台完整串接。'},
    {'title':'Plus+加值服務讓網站效益加倍','copy':'網址DNS、指向服務、SSL憑證服務、雲端主機管理服務、SEO優化服務、關鍵字廣告服務、商業攝影服務，並可串接金流與物流。'}
   ],
-  'plans':[{'name':'購物網站設計','tag':'NT$ 38,800 /起','price':'＋維護與主機年費','items':['SSL加密憑證','金流串接','物流串接','滿件折扣／滿額折扣／優惠碼折扣','Google 關鍵字廣告','SEO排序廣告']}]
+
  },
  'brand': {
   'path':'brand-web.html','source':'https://www.buyersline.com.tw/brand-web.html','eyebrow':'B2C BRAND WEBSITE','title':'B2C品牌網站','accent':'B2C企業形象網頁設計','lead':'從品牌形象、產品資訊到線上購物，讓企業與消費者之間的溝通更清楚。','case_ids':['beauty-categories','digital-experiences','stillmind'],
@@ -135,6 +131,7 @@ for cid in CASES:
         'sourcePage':row['sourcePage']
     }
 
-(ROOT/'routes.json').write_text(json.dumps({'route_count':len(pages),'routes':[{'key':key,'path':value['path'],'title':value.get('title',''),'source':value.get('source',value.get('sourcePage',''))} for key,value in pages.items()]},ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+route_pages=list(pages.items())+[('consultation',{'path':'consultation.html','title':'需求諮詢與網站預算估算','source':'local'})]
+(ROOT/'routes.json').write_text(json.dumps({'route_count':len(route_pages),'routes':[{'key':key,'path':value['path'],'title':value.get('title',''),'source':value.get('source',value.get('sourcePage',''))} for key,value in route_pages]},ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
 (ROOT/'site-data.js').write_text('window.PAGE_DATA = '+json.dumps(pages,ensure_ascii=False,indent=2)+';\n',encoding='utf-8')
 print('page_data',len(pages))

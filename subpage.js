@@ -50,14 +50,6 @@
     });
   }
 
-  const planRoot = $('#page-plans');
-  if (planRoot && data.plans) {
-    data.plans.forEach((plan,index) => {
-      const card=document.createElement('article'); card.className='subpage-plan'+(index===1?' is-featured':'');
-      card.innerHTML=`<small>${plan.name}</small><h3>${plan.tag}</h3><p>${plan.items.join('<br>')}</p><b>${plan.price}</b>`;
-      planRoot.append(card);
-    });
-  }
 
   const grid = $('#page-case-grid');
   const renderCase = item => {

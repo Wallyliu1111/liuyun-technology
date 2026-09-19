@@ -2,11 +2,11 @@ from playwright.sync_api import sync_playwright
 import json, re
 from pathlib import Path
 
-ROOT='http://127.0.0.1:8765/'
+ROOT='http://127.0.0.1:8876/'
 SITE=Path('/Users/laina/.hermes/profiles/sales/workspace/liuyun-technology')
 raw_page_data=(SITE/'site-data.js').read_text(encoding='utf-8')
 page_data=json.loads(raw_page_data.split('=',1)[1].rsplit(';',1)[0].strip())
-paths=['index.html'] + sorted({v['path'] for v in page_data.values()})
+paths=['index.html','consultation.html'] + sorted({v['path'] for v in page_data.values()})
 results=[]
 with sync_playwright() as p:
     b=p.chromium.launch(headless=True,executable_path='/Applications/Google Chrome.app/Contents/MacOS/Google Chrome')
@@ -28,7 +28,7 @@ with sync_playwright() as p:
               'nav_signature':' '.join(page.locator('.site-nav').inner_text().split()),'dropdown_count':page.locator('.nav-dropdown').count(),
               'console_errors':[x for x in console if x['type']=='error'],'failed_requests':unexpected_failed,'benign_media_aborts':benign_media_aborts
             }
-            if path in ('index.html','web_path.html'):
+            if path in ('index.html','web_path.html','consultation.html'):
                 dropdown=page.locator('.nav-dropdown').first
                 dropdown.hover(); page.wait_for_timeout(80)
                 result['website_dropdown_visible']=dropdown.locator('.nav-dropdown-panel').is_visible()

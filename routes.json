@@ -1,5 +1,5 @@
 {
-  "route_count": 33,
+  "route_count": 34,
   "routes": [
     {
       "key": "web_path",
@@ -198,6 +198,12 @@
       "path": "works/product-studio.html",
       "title": "數位服務｜產品與介面設計",
       "source": "https://motionsites.ai/?prompt=product-studio"
+    },
+    {
+      "key": "consultation",
+      "path": "consultation.html",
+      "title": "需求諮詢與網站預算估算",
+      "source": "local"
     }
   ]
 }
